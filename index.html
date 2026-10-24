@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Юлия Подольная — UI/UX Designer & Art Director</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="top">
+    <div class="header-inner">
+      <nav class="nav">
+        <a href="index.html" class="active">Мои проекты</a>
+        <a href="about.html">Обо мне</a>
+      </nav>
+      <div class="header-actions">
+        <div class="languages">
+          <button class="active" type="button">RU</button>
+          <a href="index-en.html" class="lang-link">EN</a>
+        </div>
+        <a class="contact-button" href="#contact">Связаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h1>Юлия Подольная</h1>
+      <p class="intro-description">
+        UI/UX дизайнер и арт-директор с 12-летним опытом в создании цифровых продуктов для сложных мультиплатформенных систем. Спроектировала приложение, которым пользуются 20+ брендов и более 7 000 000 абонентов по всему миру.
+      </p>
+    </section>
+
+    <!-- Сетка карточек проектов -->
+    <section class="project-grid" aria-label="Избранные проекты">
+      <!-- LIME -->
+      <a class="project-card featured" href="#case-section" data-target="lime">
+        <img class="card-image" src="assets/lime-cover.jpg" alt="LIME">
+        <div>
+          <h2 class="project-title">LIME</h2>
+          <p class="project-subtitle">ТВ-платформа для больших экранов<br>и мобильных устройств</p>
+        </div>
+        <div class="project-bottom">
+          <div class="tags">
+            <span class="tag">SmartTV</span><span class="tag">iOS</span>
+            <span class="tag">Android</span><span class="tag">UI/UX</span>
+            <span class="tag">Analytics</span><span class="tag">B2B</span>
+          </div>
+          <span class="arrow">
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Smartlabs -->
+      <a class="project-card" href="#case-section" data-target="smartlabs">
+        <img class="card-image" src="assets/smartlabs-cover.jpg" alt="Smartlabs">
+        <div>
+          <h2 class="project-title">Smartlabs</h2>
+          <p class="project-subtitle">Сайт и промоматериалы</p>
+        </div>
+        <div class="project-bottom">
+          <div class="tags">
+            <span class="tag">UI/UX</span><span class="tag">Marketing</span>
+            <span class="tag">B2B</span>
+          </div>
+          <span class="arrow">
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Variteks -->
+      <a class="project-card" href="#case-section" data-target="variteks">
+        <img class="card-image" src="assets/variteks-cover.jpg" alt="Variteks">
+        <div>
+          <h2 class="project-title">Variteks</h2>
+          <p class="project-subtitle">Онлайн-магазин и каталоги</p>
+        </div>
+        <div class="project-bottom">
+          <div class="tags">
+            <span class="tag">UI/UX</span><span class="tag">Marketing</span>
+            <span class="tag">B2C</span>
+          </div>
+          <span class="arrow">
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <!-- Organaza -->
+      <a class="project-card" href="#case-section" data-target="organaza">
+        <img class="card-image" src="assets/organaza-cover.jpg" alt="Organaza">
+        <div>
+          <h2 class="project-title">Organaza</h2>
+          <p class="project-subtitle">Планировщик задач</p>
+        </div>
+        <div class="project-bottom">
+          <div class="tags">
+            <span class="tag">UI</span><span class="tag">B2B</span>
+          </div>
+          <span class="arrow">
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+    </section>
+
+    <!-- Меню вкладок кейсов -->
+    <nav class="project-tabs" id="project-tabs">
+      <a href="#" class="active" data-target="lime">LIME</a>
+      <a href="#" data-target="smartlabs">Smartlabs</a>
+      <a href="#" data-target="variteks">Variteks</a>
+      <a href="#" data-target="organaza">Organaza</a>
+    </nav>
+
+    <!-- КОНТЕЙНЕР ДЛЯ КЕЙСОВ (переключается JS) -->
+    <div id="case-section" class="case-content-wrapper">
+      
+      <!-- КЕЙС LIME -->
+      <div class="case-item active" id="case-lime">
+        <h2>LIME</h2>
+        <p class="case-intro">
+          Lime - платформа для просмотра фильмов, сериалов и телеканалов на больших экранах и мобильных устройствах. Приложение работает на всех популярных операционных системах - iOS, Android, Tizen, LG webOS. Его покупают операторы стримингового ТВ из разных стран для доставки контента зрителю под своим брендом. Я сделала редизайн платформы, которая теперь успешно адаптирована<br>под многие проекты и их цели.
+        </p>
+        <div class="case-visual">
+          <img class="visual-main" src="assets/lime-visual-main.jpg" alt="LIME Main">
+        </div>
+
+                <!-- ПОДЗАГОЛОВОК 1 -->
+        <section class="case-section">
+          <h3 class="case-title-large">Пример задачи</h3>
+          
+          <!-- Раздел: Дизайн плеера -->
+          <div class="case-subsection">
+            <h4>Дизайн плеера</h4>
+            <p>Нужно было переделать дизайн плеера для просмотра разного вида контента - кино, сериалов и эфирных передач на больших и мобильных устройствах. При этом управление плеером на телевизоре осуществляется с помощью стандартного пульта. Основная цель - выстроить понятную навигацию и сократить количество действий пользователя, уместив все нужные функции плеера.</p>
+            <div class="two-images">
+              <div class="image-placeholder"><img src="assets/lime-task-1.jpg" alt="Player 1"></div>
+              <div class="image-placeholder"><img src="assets/lime-task-2.jpg" alt="Player 2"></div>
+            </div>
+          </div>
+
+          <!-- Раздел: Проблема -->
+          <div class="case-subsection">
+            <h4>Проблема</h4>
+            <p>У локального оператора пользователи привыкли переключать каналы кнопками вверх/вниз прямо во время просмотра эфирной передачи. В текущем плеере эти кнопки уже задействованы в навигации: вниз - открывает ленту программ канала, вверх - функции управления просмотром (звук, субтитры, избранное). Важно было решить этот конфликт для одного оператора, но сохранить единую систему управления для остальных наших клиентов.</p>
+          </div>
+
+          <!-- Раздел: Процесс -->
+          <div class="case-subsection">
+            <h4>Процесс</h4>
+            <p>Пересобрала архитектуру плеера с учётом всех привычных паттернов. Проработала основные состояния, переходы и сценарии. Объединила их в интерактивный прототип и проверила логику навигации от начала и до конца.</p>
+            <div class="three-images">
+              <div class="image-placeholder"><img src="assets/lime-problem-1.jpg" alt="Process 1"></div>
+              <div class="image-placeholder"><img src="assets/lime-problem-2.jpg" alt="Process 2"></div>
+              <div class="image-placeholder"><img src="assets/lime-problem-3.jpg" alt="Process 3"></div>
+            </div>
+          </div>
+
+          <!-- Раздел: Решение проблемы -->
+          <div class="case-subsection">
+            <h4>Решение проблемы</h4>
+            <p>Сделали отдельную подключаемую фичу для клиентов, которая меняет поведение кнопок вверх/вниз в плеере. Статичный логотип канала может становиться фокусируемой каруселью. Когда фокус на ней, кнопки вверх/вниз листают каналы. Если фокуса нет, сохраняется стандартная навигация плеера. В режиме просмотра без открытых контролов кнопки вверх/вниз сразу переключают каналы.</p>
+            <div class="image-placeholder full-width-img h-600">
+              <img src="assets/lime-solution.jpg" alt="Solution">
+            </div>
+          </div>
+
+          <!-- Раздел: Результат -->
+          <div class="case-subsection">
+            <h4>Результат</h4>
+            <p>Освежили дизайн плеера на всех платформах и закрыли специфический сценарий локального ТВ-оператора, сохранив привычный UX его пользователей и единую логику LIME для остальных клиентов.</p>
+            <div class="image-placeholder full-width-img h-600">
+              <img src="assets/lime-result.jpg" alt="Result">
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section">
+          <h3 class="case-title-large">Упрощение кастомизации</h3>
+          <p>Важным достижением бизнеса стало упрощение кастомизации приложения для новых заказчиков. Я провела анализ изменяемых элементов, определила основные<br>и составила из них базу образцов для наших разработчиков. Для компании-клиента был сформирован гайд с примерами и требованиями к предоставляемым файлам. Получилось упростить и автоматизировать процесс смены бренда. Рабочее время нашей команды при взаимодействии с новым клиентом сокращено с 1,5 месяцев<br>до 1 недели, производительность выросла в 6 раз.</p>
+          
+          <!-- Карусель -->
+          <div class="carousel-wrapper">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-slide active"><img src="assets/lime-customization-1.jpg" alt="Кастомизация 1"></div>
+              <div class="carousel-slide"><img src="assets/lime-customization-2.jpg" alt="Кастомизация 2"></div>
+              <div class="carousel-slide"><img src="assets/lime-customization-3.jpg" alt="Кастомизация 3"></div>
+              <div class="carousel-slide"><img src="assets/lime-customization-4.jpg" alt="Кастомизация 4"></div>
+              <div class="carousel-slide"><img src="assets/lime-customization-5.jpg" alt="Кастомизация 5"></div>
+              <div class="carousel-slide"><img src="assets/lime-customization-6.jpg" alt="Кастомизация 6"></div>
+              <div class="carousel-slide"><img src="assets/lime-customization-7.jpg" alt="Кастомизация 7"></div>
+            </div>
+
+            <button class="carousel-btn carousel-btn-prev" id="carouselPrev" aria-label="Предыдущий слайд">
+              <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+              </svg>
+            </button>
+            <button class="carousel-btn carousel-btn-next" id="carouselNext" aria-label="Следующий слайд">
+              <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Панель логотипов (табы) -->
+          <div class="brand-logos-tabs" id="brandTabs">
+            <button class="brand-tab active" data-index="0"><img src="assets/logo-1-dark.png" alt="Uplay" class="logo-dark"><img src="assets/logo-1-light.png" alt="Uplay" class="logo-light"></button>
+            <button class="brand-tab" data-index="1"><img src="assets/logo-2-dark.png" alt="Balticum" class="logo-dark"><img src="assets/logo-2-light.png" alt="Balticum" class="logo-light"></button>
+            <button class="brand-tab" data-index="2"><img src="assets/logo-3-dark.png" alt="StarNet" class="logo-dark"><img src="assets/logo-3-light.png" alt="StarNet" class="logo-light"></button>
+            <button class="brand-tab" data-index="3"><img src="assets/logo-4-dark.png" alt="Wiltel" class="logo-dark"><img src="assets/logo-4-light.png" alt="Wiltel" class="logo-light"></button>
+            <button class="brand-tab" data-index="4"><img src="assets/logo-5-dark.png" alt="Primetel" class="logo-dark"><img src="assets/logo-5-light.png" alt="Primetel" class="logo-light"></button>
+            <button class="brand-tab" data-index="5"><img src="assets/logo-6-dark.png" alt="Televarp" class="logo-dark"><img src="assets/logo-6-light.png" alt="Televarp" class="logo-light"></button>
+            <button class="brand-tab" data-index="6"><img src="assets/logo-7-dark.png" alt="Beanfield" class="logo-dark"><img src="assets/logo-7-light.png" alt="Beanfield" class="logo-light"></button>
+          </div>
+
+          <!-- Раздел: В рамках проекта LIME -->
+          <section class="case-section">
+          <p>В рамках проекта LIME было ещё много интересных задач - от сложных сценариев<br>до развития продукта на разных платформах. Приложение SmartLabs LIME Application доступно в <a href="https://apps.apple.com/ru/app/smartlabs-lime-application/id6444482491" target="_blank" rel="noopener">App Store</a> и других магазинах.</p>
+        </section>
+
+      </div>
+
+      <!-- КЕЙС SMARTLABS -->
+      <div class="case-item" id="case-smartlabs">
+        <h2>Smartlabs</h2>
+        <p class="case-intro">Smartlabs - компания, которая создаёт программные решения и инфраструктуру для сервисов цифрового ТВ, а также производит приставки. В роли арт-директора я выстраивала целостную визуальную систему бренда - от обновления фирменного стиля и сайта до презентаций, рекламы, социальных сетей и выставочных стендов. Одновременно работала над дизайном самостоятельно и координировала работу других специалистов, обеспечивая единый визуальный язык во всех точках контакта с брендом.</p>
+        
+        <div class="grid-masonry">
+          <!-- Ряд 1: Широкая (2 колонки) + Квадратная (1 колонка) -->
+          <div class="image-placeholder gm-wide"><img src="assets/sm-1.jpg" alt=""></div>
+          <div class="image-placeholder gm-square"><img src="assets/sm-2.jpg" alt=""></div>
+          
+          <!-- Ряд 2: Три квадратные -->
+          <div class="image-placeholder gm-square"><img src="assets/sm-3.jpg" alt=""></div>
+          <div class="image-placeholder gm-square"><img src="assets/sm-4.jpg" alt=""></div>
+          <div class="image-placeholder gm-square"><img src="assets/sm-5.jpg" alt=""></div>
+          
+          <!-- Ряд 3: Квадратная (1 колонка) + Широкая (2 колонки) -->
+          <div class="image-placeholder gm-square"><img src="assets/sm-6.jpg" alt=""></div>
+          <div class="image-placeholder gm-wide"><img src="assets/sm-7.jpg" alt=""></div>
+        </div>
+
+                <!-- ПОДЗАГОЛОВОК 1 -->
+        <section class="case-section">
+          <h3 class="case-title-large">Пример задачи</h3>
+          
+          <!-- Раздел: Сайт -->
+          <div class="case-subsection">
+            <h4>Сайт</h4>
+            <p>Требовалось переработать сайт Smartlabs как основной инструмент презентации продуктов и решений компании. Пересобрать продуктовую структуру, сделать предложение понятным для потенциальных клиентов и выстроить более современную визуальную подачу.</p>
+            <div class="two-images">
+              <div class="image-placeholder"><img src="assets/sm-site-old.jpg" alt="Старый сайт"></div>
+              <div class="image-placeholder"><img src="assets/sm-site-new.jpg" alt="Новый сайт"></div>
+            </div>
+          </div>
+
+          <!-- Раздел: Проблема -->
+          <div class="case-subsection">
+            <h4>Проблема</h4>
+            <p>Старый сайт был построен вокруг большого количества продуктов решений, которые последовательно перечислялись на главной странице сложным техническим языком. При этом между ними не было понятной иерархии, сложная система меню и подменю затрудняла навигацию. Для b2b-компании это становилось маркетинговой проблемой. Сайт не помогал менеджерам быстро направлять клиента к нужной информации.</p>
+          </div>
+
+          <!-- Раздел: Процесс -->
+          <div class="case-subsection">
+            <h4>Процесс</h4>
+            <p>На первом этапе я пересобрала продуктовую структуру сайта с точки зрения маркетинга: объединила продукты и решения в понятные группы, упростила меню и выстроила новую иерархию разделов.</p>
+            <p>Для ключевых страниц самостоятельно проработала содержание: сформулировала тексты и объяснила простым языком, что представляет собой каждый продукт, какие задачи он решает и для кого предназначен.</p>
+            <p>После этого перевела новую маркетинговую структуру в UX и UI: спроектировала навигацию, иерархию страниц и обновила визуальную систему сайта.</p>
+            <div class="three-images">
+              <div class="image-placeholder"><img src="assets/sm-process-1.jpg" alt="Процесс 1"></div>
+              <div class="image-placeholder"><img src="assets/sm-process-2.jpg" alt="Процесс 2"></div>
+              <div class="image-placeholder"><img src="assets/sm-process-3.jpg" alt="Процесс 3"></div>
+            </div>
+          </div>
+
+          <!-- Раздел: Результат -->
+          <div class="case-subsection">
+            <h4>Результат</h4>
+            <p>Продукты и решения стали представлены в виде отдельных визуальных модулей - кубиков, баннеров, cta-элементов. Такая модульная структура позволила легко менять состав и порядок блоков на главной странице и адаптировать её под сезонные задачи бизнеса. Обновлённая система сделала сайт более удобным инструментом для продаж.</p>
+            <p><a href="https://web.archive.org/web/20221201061248/https://www.smartlabs.tv/en/" target="_blank" rel="noopener">smartlabs.tv</a></p>
+            
+            <!-- Карусель Smartlabs -->
+            <div class="carousel-wrapper">
+              <div class="carousel-track" id="smartlabsTrack">
+                <div class="carousel-slide active"><img src="assets/sm-carousel-1.jpg" alt="Smartlabs 1"></div>
+                <div class="carousel-slide"><img src="assets/sm-carousel-2.jpg" alt="Smartlabs 2"></div>
+                <div class="carousel-slide"><img src="assets/sm-carousel-3.jpg" alt="Smartlabs 3"></div>
+                <div class="carousel-slide"><img src="assets/sm-carousel-4.jpg" alt="Smartlabs 4"></div>
+              </div>
+              <button class="carousel-btn carousel-btn-prev" id="smCarouselPrev" aria-label="Предыдущий слайд">
+                <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/></svg>
+              </button>
+              <button class="carousel-btn carousel-btn-next" id="smCarouselNext" aria-label="Следующий слайд">
+                <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/></svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Финальный текст -->
+        <section class="case-section">
+          <p>Проект Smartlabs позволил мне развить применить разносторонние навыки в сфере дизайна. Я создавала иллюстрации и лендинги, верстала материалы для печати, придумывала креативные рекламные концепции, готовила технические схемы для производства. В последний год работы я плотно занималась видеопрезентациями для социальных сетей: придумывала и оформляла визуальную подачу, снимала и монтировала контент. Внутри компании я выросла из штатного графического дизайнера в креативного IT-специалиста с продуктовым мышлением.</p>
+        </section>
+
+      </div>
+
+
+      <!-- КЕЙС VARITEKS -->
+      <div class="case-item" id="case-variteks">
+        <h2>Variteks</h2>
+        <p class="case-intro">Variteks - турецкий производитель и продавец медицинских ортопедических изделий. Для российского дистрибьютора я разработала онлайн-магазин бренда, а также занималась сопутствующими материалами: верстала печатные каталоги, флаеры, оформляла визитки и другую полиграфию.</p>
+        
+        <div class="grid-masonry" style="margin-top: 40px;">
+          <!-- Широкая картинка (2 колонки) -->
+          <div class="image-placeholder gm-wide"><img src="assets/variteks-top-wide.jpg" alt="Variteks Top Wide"></div>
+          <!-- Квадратная картинка (1 колонка) -->
+          <div class="image-placeholder gm-square"><img src="assets/variteks-top-square.jpg" alt="Variteks Top Square"></div>
+        </div>
+
+                <!-- ПОДЗАГОЛОВОК 1 -->
+        <section class="case-section">
+          <h3 class="case-title-large">Пример задачи</h3>
+          
+          <!-- Раздел: Онлайн-магазин -->
+          <div class="case-subsection">
+            <h4>Онлайн-магазин</h4>
+            <p>Нужно было создать понятный сайт-каталог с возможностью быстро найти ортопедическое изделие и оформить заказ.</p>
+            <div class="two-images">
+              <div class="image-placeholder"><img src="assets/var-before.jpg" alt="Было"></div>
+              <div class="image-placeholder"><img src="assets/var-after.jpg" alt="Стало"></div>
+            </div>
+          </div>
+
+                  <!-- Раздел: Проблема -->
+          <div class="case-subsection">
+            <h4>Проблема</h4>
+            <p>Существующая турецкая версия сайта не давала понятной структуры каталога. Система фильтрации работала неудобно: товары и параметры существовали без четкой логики, найти подходящее изделие было сложно.</p>
+          </div>
+
+          <!-- Раздел: Процесс -->
+          <div class="case-subsection">
+            <h4>Процесс</h4>
+            <p>Пересобрала структуру каталога и систему фильтрации с учётом характеристик товаров. Объединила взаимосвязанные группы и выстроила систему пересечения и объединения множеств, чтобы пользователь мог последовательно сужать или расширять выдачу. На этой основе спроектировала основные сценарии онлайн-магазина, а далее собрала целостную визуальную систему.</p>
+            <div class="image-placeholder img-353" style="margin-top: 30px; background: #eaeae7;">
+              <img src="assets/var-process.jpg" alt="Процесс Variteks">
+            </div>
+          </div>
+
+          <!-- Раздел: Результат -->
+          <div class="case-subsection">
+            <h4>Результат</h4>
+            <p>Получился простой и понятный онлайн-магазин с логичной структурой каталога и удобной системой фильтрации. Параллельно сформировался фирменный стиль для презентации бренда в России.</p>
+            <p><a href="https://fortisorto.ru/" target="_blank">fortisorto.ru</a></p>
+            
+            <!-- Карусель Variteks -->
+            <div class="carousel-wrapper">
+              <div class="carousel-track" id="variteksTrack">
+                <div class="carousel-slide active"><img src="assets/var-result-1.jpg" alt="Variteks 1"></div>
+                <div class="carousel-slide"><img src="assets/var-result-2.jpg" alt="Variteks 2"></div>
+                <div class="carousel-slide"><img src="assets/var-result-3.jpg" alt="Variteks 3"></div>
+              </div>
+              <button class="carousel-btn carousel-btn-prev" id="varCarouselPrev" aria-label="Предыдущий слайд">
+                <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/></svg>
+              </button>
+              <button class="carousel-btn carousel-btn-next" id="varCarouselNext" aria-label="Следующий слайд">
+                <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/></svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+
+      <!-- КЕЙС ORGANAZA -->
+      <div class="case-item" id="case-organaza">
+        <h2>Organaza</h2>
+        <p class="case-intro">Organaza - система управления проектами и задачами с декомпозицией заданий, планированием и визуализацией рабочих процессов. Я отвечала за UI продукта: разработала визуальный стиль и интерфейсы основных экранов системы.</p>
+        
+        <div class="image-placeholder full-width-img" style="margin-top: 40px;">
+            <img src="assets/org-top.jpg" alt="Organaza Top">
+        </div>
+
+                <section class="case-section">
+          <h3 class="case-title-large">Задача</h3>
+          <p>Требовалось создать понятный и цельный визуальный язык для сложного рабочего инструмента. Большое количество информации и функций должны быть удобно представлены для ежедневной работы.</p>
+          
+          <!-- Раздел: Процесс -->
+          <div class="case-subsection" style="margin-top: 40px;">
+            <h4>Процесс</h4>
+            <p>Изучала аналоги и прототипы. Определила визуальное направление продукта - принципы работы интерфейса, цветовую палитру, типографику, стили элементов. На этой основе прорабатывала основные экраны и состояния системы.</p>
+          </div>
+
+          <!-- Раздел: Результат -->
+          <div class="case-subsection">
+            <h4>Результат</h4>
+            <p>Получился цельный интерфейс для сложной системы управления проектами. Объёмные данные, задачи и настройки удалось организовать в едином стиле без ощущения перегруженности.</p>
+            <p><a href="https://web.archive.org/web/20191209174507/https://organaza.com/" target="_blank">organaza.com</a></p>
+            
+            <!-- Карусель Organaza -->
+            <div class="carousel-wrapper">
+              <div class="carousel-track" id="organazaTrack">
+                <div class="carousel-slide active"><img src="assets/org-result-1.jpg" alt="Organaza 1"></div>
+                <div class="carousel-slide"><img src="assets/org-result-2.jpg" alt="Organaza 2"></div>
+                <div class="carousel-slide"><img src="assets/org-result-3.jpg" alt="Organaza 3"></div>
+              </div>
+              <button class="carousel-btn carousel-btn-prev" id="orgCarouselPrev" aria-label="Предыдущий слайд">
+                <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/></svg>
+              </button>
+              <button class="carousel-btn carousel-btn-next" id="orgCarouselNext" aria-label="Следующий слайд">
+                <svg class="icon-arrow" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/></svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </div> <!-- /case-content-wrapper -->
+
+    <div class="back-to-top-wrapper">
+      <button class="back-to-top" id="backToTop" type="button">
+        Наверх
+        <svg class="icon-arrow-up" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.99153 7.00288L1.38196 2.24062C1.06753 1.91983 0.550246 1.91983 0.23582 2.24062C-0.0786066 2.5614 -0.0786066 3.08913 0.23582 3.40991L5.4134 8.762C5.49454 8.83444 5.58582 8.89652 5.68725 8.93791C5.73796 8.95861 5.78868 8.95861 5.82925 8.96896C5.89011 8.9793 5.94082 9 5.99153 9C6.04225 9 6.09296 8.9793 6.15382 8.96896C6.20453 8.95861 6.25525 8.95861 6.29582 8.93791C6.39725 8.89652 6.48853 8.83444 6.56967 8.75165L11.7667 3.42023C11.929 3.25467 12 3.04771 12 2.83041C12 2.6131 11.9189 2.40615 11.7667 2.24059C11.4523 1.9198 10.935 1.9198 10.6206 2.24059L5.99153 7.00288Z" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
+
+    <footer class="footer" id="contact">
+      <div class="footer-bottom">
+        <button class="copy-nickname" id="copyNickname" type="button">@senioradesigner во всех соцсетях</button>
+        <span>© 2026</span>
+      </div>
+    </footer>
+  </main>
+
+    <!-- ПОПАП СВЯЗИ -->
+  <div class="contact-popup-overlay" id="contactPopup">
+    <div class="contact-popup">
+      <button class="contact-popup-close" id="closePopup" aria-label="Закрыть">×</button>
+      <h3 class="contact-popup-title">Как со мной связаться?</h3>
+      
+      <div class="contact-options">
+        <!-- Почта -->
+        <button class="contact-option" id="copyEmail">
+          <div class="contact-option-icon">✉️</div>
+          <div class="contact-option-text">
+            <span class="contact-option-title">Email</span>
+            <span class="contact-option-value">senioradesigner@gmail.com</span>
+          </div>
+        </button>
+
+        <!-- Телеграм -->
+        <a href="https://t.me/senioradesigner" target="_blank" rel="noopener" class="contact-option">
+          <div class="contact-option-icon"><img src="assets/tg.png" alt="Telegram"></div>
+          <div class="contact-option-text">
+            <span class="contact-option-title">Telegram</span>
+            <span class="contact-option-value">@senioradesigner</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
